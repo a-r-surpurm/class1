@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Percentage Calculator</h1>
+        <p>Enter the marks of your 5 subjects below:</p>
+        
+        <form id="marksForm">
+            <label for="subject1">Subject 1:</label>
+            <input type="number" id="subject1" required><br><br>
+            
+            <label for="subject2">Subject 2:</label>
+            <input type="number" id="subject2" required><br><br>
+            
+            <label for="subject3">Subject 3:</label>
+            <input type="number" id="subject3" required><br><br>
+            
+            <label for="subject4">Subject 4:</label>
+            <input type="number" id="subject4" required><br><br>
+            
+            <label for="subject5">Subject 5:</label>
+            <input type="number" id="subject5" required><br><br>
+
+            <button type="button" onclick="calculatePercentage()">Calculate Percentage</button>
+        </form>
+
+        <div id="result">
+            <h2>Result:</h2>
+            <p id="percentage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
